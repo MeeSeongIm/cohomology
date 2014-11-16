@@ -10,6 +10,8 @@
 -- H_I^3(A) != 0 because of the computation below (the Groebner basis of the ideal JH3 of this module does not contain 1)
 -- H_I^k(A) =  0 for k > 3 because I has 3 generators.
 
+-- in prime characteristic, H_I^3(A) = 0 due to the following: 
+-- suppose if A/I is Cohen-Macaulay. Then H_I^k(A) !=0 only if k = codim I.
 
 %macaulay2
 
