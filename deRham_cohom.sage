@@ -1,4 +1,4 @@
--- compute the de Rham cohomology of $C^3 \setminus Var(f)$, where f = x^3 + y^3 + z^3.
+-- compute the de Rham cohomology of $C^3 - Var(f)$, where f = x^3 + y^3 + z^3.
 -- h^0 = h^1 = 1, 
 -- h^2 = h^3 = 2, 
 -- h^k = 0 otherwise.
