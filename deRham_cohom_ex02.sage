@@ -36,8 +36,6 @@ x y + x*y  + x y
 
 R
 
-
-
 Ideal of D
 
 cokernel | Dx Dy Dz |
@@ -78,3 +76,17 @@ HashTable
 0                                 1                                 2                                  3                                  4
 
 ChainComplex
+
+
+-- gens H_{dR}^0 e = f/f
+-- gens H_{dR}^1 a_1 = ((3x_1^2 + x_2)x_1 x_2 dx_1 + (3x_1^2 + 2x_2)x_1^2 dx_2)/f,
+                 a_2 = ((3x_2^2 + 2x_1)x_2^2 dx_1 + (3x_2^2 + x_1)x_1 x_2 dx_2)/f,
+                 a_3 = (x_1^3 + x_2^3 + x_1x_2)x_2dx_1/f^3,
+-- gens H_{dR}^2 t_1 = x_2^3/f,    
+                 t_2 = 1/f,
+                 t_3 = x_1x_2^2/f, 
+                 t_4 = x_1^2x_2/f,
+                 t_5 = x_1^3/f
+  
+
+
