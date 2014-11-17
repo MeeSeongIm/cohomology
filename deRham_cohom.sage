@@ -13,7 +13,6 @@ f=x^3 + y^3 + z^3
 
 H = deRhamAll(f);
 
-
 D=QQ[x,y,z,Dx,Dy,Dz,WeylAlgebra => {x=>Dx, y=>Dy, z=>Dz}];
 Delta = ideal(Dx,Dy,Dz);
 
@@ -30,9 +29,7 @@ H.VResolution
 f*f
 
 
-
-
-
+-- Output -- 
 
 o1000000014 = R
 
@@ -90,5 +87,15 @@ o1000000023 : ChainComplex
 o1000000024 = x  + 2x y  + y  + 2x z  + 2y z  + z
 
 o1000000024 : QQ[x, y, z]
+
+
+-- two forms in H_{dR}^2(C^3 - Var(f), C): 
+
+
+-- gens H_{dR}^0  e = f^2/f^2
+-- gens H_{dR}^1  o = ((x^2 dx -y^2dy + z^2 dz)f)/f^2
+-- gens H_{dR}^2  t_1 = xyz(zdxdy + ydzdx + xdydz)/f^2,     t_2 = (zdxdy + ydzdx + xdydz)z^3/f^2
+-- gens H_{dR}^3  d_1 = xyz dxdydz/f^2,                     d_2 = z^3 dxdydz/f^2
+
 
 
